@@ -11,7 +11,7 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             //q1
-            /*
+            
             int singleShovar = 0,shovar1 = 0, sumShovar1 = 6;
             int doubleShovar = 0,shovar2 = 0, sumShovaer2 = 10;
             int sum;
@@ -40,12 +40,11 @@ namespace ConsoleApp6
             sum = (singleShovar * sumShovar1) + (doubleShovar * sumShovaer2);
             Console.WriteLine($"The total money collected is {sum}\n" +
                 $"The sum of double shovers is {doubleShovar}");
-            */
+            
             //q2
             int moneySum , total = 0, moneySum1, somthing,somthing1 = 0,somthingSum = 0;
             double avg;
             Random rnd = new Random();
-            //rnd.Next(10,51);
 
             Console.WriteLine("Enter a sum of money ");
             moneySum = int.Parse(Console.ReadLine());
